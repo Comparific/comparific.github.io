@@ -1,0 +1,9 @@
+<?php
+
+$content = file_get_contents('https://docs.google.com/document/d/1z0aXcQaK04iR-QrvzhtzIsUYQ-99sdZkVfgGFwrwXJM/pub?embedded=true');
+if( $content !== FALSE ) {
+  // add your JS into $content
+  echo $content;
+}
+
+?>
